@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobileApp.MainPage" BackgroundColor="#EFF1F5" >
+    
+    
+    
+    <ContentPage.Content >
+        <Grid>
+            <Grid  Margin="10,0,10,0" BackgroundColor="#EFF1F5" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*" />
+                    <RowDefinition Height="7*" />
+                    <RowDefinition Height="50*" />
+                    <RowDefinition Height="17*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" ColumnSpacing="25" RowSpacing="0"
+                  BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70*" />
+                        <RowDefinition Height="30*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80*" />
+                        <ColumnDefinition Width="20*" />
+                    </Grid.ColumnDefinitions>
+                    <Label  Grid.Row="0" Grid.Column="0" Text="Company" HorizontalTextAlignment="Start" VerticalTextAlignment="End" BackgroundColor="Transparent"
+                                   FontFamily="Roboto Regularfont" FontSize="40" TextColor="#555555" 
+                        Margin="20,0,0,0" >
+                    </Label>
+                    <Label BackgroundColor="Transparent" Grid.Row="1" Grid.Column="0" Text="We are a company" 
+                       HorizontalTextAlignment="Start"   VerticalTextAlignment="Start"
+                         FontFamily=" Roboto-light " FontSize="12" TextColor="#555555" 
+                       Margin="57,0,0,0" >
+                    </Label>
+                    <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="5" Source="lsymbol.png" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,0" BackgroundColor="#EFF1F5" 
+                             Aspect="AspectFit" />
+
+                </Grid>
+                <Label Grid.Row="1" Grid.Column="0" Text="Choose your power" VerticalTextAlignment="End" BackgroundColor="Transparent"
+                       FontFamily="Roboto-Regular" FontSize="18" TextColor="#555555" 
+                       Margin="25,0,0,5" />
+                <Grid Grid.Row="2" Grid.Column="0" Margin="10,0,10,0" ColumnSpacing="0" Padding="0" 
+                  RowSpacing="0" BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*" />
+                        <RowDefinition Height="50*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <!--<Frame  Grid.Row="0" Grid.Column="0"  Margin="0" BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill"
+                        CornerRadius="15" Padding="0" HasShadow="True" >
+
+                    <ImageButton x:Name="DashMyPolicies"  Source="dash_my_policies.png" Margin="0" CornerRadius="0" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill"  
+                             BackgroundColor="#EFF1F5" Aspect="AspectFit" Clicked="DashMyPolicies_Click"></ImageButton>
+
+                </Frame>-->
+                    <Grid Grid.Row="0" Grid.Column="0"  ColumnSpacing="0" Padding="0"
+                  BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                      
+                        
+                        <ImageButton   Source="policy2.png" Margin="0,0,0,0" CornerRadius="5"
+                             VerticalOptions="Fill" HorizontalOptions="Fill"  
+                             BackgroundColor="Transparent" Aspect="AspectFit" Clicked="DashMyPolicies_Click" ></ImageButton>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="1"  ColumnSpacing="0" 
+                BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                        
+                        
+                        
+                        <ImageButton   Source="custom2.png" Margin="0,0,0,0" CornerRadius="5"
+                             VerticalOptions="Fill" HorizontalOptions="Fill"  
+                             BackgroundColor="Transparent" Aspect="AspectFit" ></ImageButton>
+
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="0"  ColumnSpacing="0" 
+                    BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                       
+                        
+                        
+                        <ImageButton   Source="getquote1.png" Margin="0,0,0,0"
+                             VerticalOptions="Fill" HorizontalOptions="Fill"  
+                             BackgroundColor="Transparent" Aspect="AspectFit" ></ImageButton>
+
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1"  ColumnSpacing="0" 
+                 BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*" />
+                        </Grid.ColumnDefinitions>
+                       
+                        
+                        
+                        <ImageButton   Source="mobilepay1.png" Margin="0,0,0,0" CornerRadius="0"
+                             VerticalOptions="Fill" HorizontalOptions="Fill"  
+                             BackgroundColor="Transparent" Aspect="AspectFit" ></ImageButton>
+
+                    </Grid>
+
+                </Grid>
+
+                <Grid Grid.Row="3" Grid.Column="0" Margin="0,0,0,0" Padding="10"
+                  ColumnSpacing="25" BackgroundColor="#EFF1F5" VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton Grid.Row="0" Grid.Column="0" Source="getassistance1.png" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,0" BackgroundColor="#EFF1F5" 
+                             Aspect="AspectFit" />
+                </Grid>
+
+                <Grid Grid.Row="4" Grid.Column="0" Margin="15,0,0,0" 
+                  ColumnSpacing="0" BackgroundColor="Transparent" VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*" />
+                        <ColumnDefinition Width="25*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Grid.Row="0" Grid.Column="0" CornerRadius="5" Source="support1.png" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,0" BackgroundColor="#EFF1F5" 
+                             Aspect="AspectFit" />
+                    <ImageButton Grid.Row="0" Grid.Column="1" CornerRadius="5" Source="documents.png" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,0" BackgroundColor="#EFF1F5" 
+                             Aspect="AspectFit" />
+                    <ImageButton Grid.Row="0" Grid.Column="2" CornerRadius="5" Source="product.png" 
+                             VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,0" BackgroundColor="#EFF1F5"  
+                             Aspect="AspectFit" />
+                </Grid>
+            </Grid>
+                </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

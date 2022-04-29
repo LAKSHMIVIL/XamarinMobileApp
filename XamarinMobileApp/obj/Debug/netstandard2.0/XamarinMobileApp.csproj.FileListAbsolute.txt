@@ -1,0 +1,16 @@
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\bin\Debug\netstandard2.0\XamarinMobileApp.deps.json
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\bin\Debug\netstandard2.0\XamarinMobileApp.dll
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\bin\Debug\netstandard2.0\ref\XamarinMobileApp.dll
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\bin\Debug\netstandard2.0\XamarinMobileApp.pdb
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.csproj.AssemblyReference.cache
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\MyPolicies.xaml.g.cs
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.AssemblyInfoInputs.cache
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.AssemblyInfo.cs
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.csproj.CoreCompileInputs.cache
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.dll
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\ref\XamarinMobileApp.dll
+D:\project\XamarinMobileApp\XamarinMobileApp\XamarinMobileApp\obj\Debug\netstandard2.0\XamarinMobileApp.pdb
